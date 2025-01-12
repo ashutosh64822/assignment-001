@@ -184,3 +184,148 @@ nav button:hover {
 }
 
 /* card section end  */
+
+/* future section start  */
+
+#future {
+    margin: 50px 110px;
+    width: 1048px;
+  }
+  
+  #future .future_title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+  }
+  
+  #future .future_description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin: 22px 0;
+  }
+  
+  #future .future_item_box {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #future .future_item_box .future_item {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 24px;
+    width: 300px;
+  }
+  
+  #future .future_item_box .color1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+  }
+  
+  #future .future_item_box .color2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+  }
+  
+  #future .future_item_box .future_item img {
+    width: 55px;
+    height: 55px;
+    margin: 2px 2px;
+  }
+  
+  #future .future_item_box .future_item .future_item_title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+  }
+  
+  #future .future_item_box .future_item .future_item_info {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+  }
+  
+  #future .future_item_box .future_item .future_item_btn {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(84, 144, 245);
+    padding: 5px 15px;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+    border-bottom: 2px solid transparent;
+  }
+  
+  #future .future_item_box .future_item .future_item_btn:hover {
+    transform: scale(1.1);
+    background: rgb(81, 134, 110);
+    border-bottom: 2px solid black;
+  }
+  
+  #future .future_item_box .future_item .btn_color1 {
+    background: rgb(9, 161, 92);
+  }
+  
+  #future .future_item_box .future_item .btn_color2 {
+    background: rgb(255, 194, 57);
+  }
+  
+  article {
+    margin-top: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 38px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 2.4%;
+    background-position-y: 10.4%;
+  }
+  
+  article .article_info {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+  }
+  
+  article .article_person_name {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px 0px;
+  }
+  
+  article .article_person_bio {
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+  }
+  
+  /* future section end */
