@@ -188,276 +188,480 @@ nav button:hover {
 /* future section start  */
 
 #future {
-    margin: 50px 110px;
-    width: 1048px;
-  }
-  
-  #future .future_title {
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 38px;
-    text-align: left;
-  }
-  
-  #future .future_description {
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: left;
-    margin: 22px 0;
-  }
-  
-  #future .future_item_box {
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #future .future_item_box .future_item {
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgba(84, 144, 245, 0.2);
-    padding: 24px;
-    width: 300px;
-  }
-  
-  #future .future_item_box .color1 {
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgb(198, 228, 214);
-  }
-  
-  #future .future_item_box .color2 {
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgb(247, 235, 207);
-  }
-  
-  #future .future_item_box .future_item img {
-    width: 55px;
-    height: 55px;
-    margin: 2px 2px;
-  }
-  
-  #future .future_item_box .future_item .future_item_title {
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-  }
-  
-  #future .future_item_box .future_item .future_item_info {
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: left;
-  }
-  
-  #future .future_item_box .future_item .future_item_btn {
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    background: rgb(84, 144, 245);
-    padding: 5px 15px;
-    margin-top: 8px;
-    cursor: pointer;
-    transition: 0.4s;
-    border-bottom: 2px solid transparent;
-  }
-  
-  #future .future_item_box .future_item .future_item_btn:hover {
-    transform: scale(1.1);
-    background: rgb(81, 134, 110);
-    border-bottom: 2px solid black;
-  }
-  
-  #future .future_item_box .future_item .btn_color1 {
-    background: rgb(9, 161, 92);
-  }
-  
-  #future .future_item_box .future_item .btn_color2 {
-    background: rgb(255, 194, 57);
-  }
-  
-  article {
-    margin-top: 15px;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-    padding: 38px 24px;
-    background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position-x: 2.4%;
-    background-position-y: 10.4%;
-  }
-  
-  article .article_info {
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: left;
-  }
-  
-  article .article_person_name {
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: left;
-    margin: 10px 0px;
-  }
-  
-  article .article_person_bio {
-    color: rgba(14, 14, 14, 0.6);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: left;
-  }
-  
-  /* future section end */
+  margin: 50px 110px;
+  width: 1048px;
+}
 
-  /* news section start */
+#future .future_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+}
+
+#future .future_description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  margin: 22px 0;
+}
+
+#future .future_item_box {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#future .future_item_box .future_item {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  padding: 24px;
+  width: 300px;
+}
+
+#future .future_item_box .color1 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+
+#future .future_item_box .color2 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+}
+
+#future .future_item_box .future_item img {
+  width: 55px;
+  height: 55px;
+  margin: 2px 2px;
+}
+
+#future .future_item_box .future_item .future_item_title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+#future .future_item_box .future_item .future_item_info {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+#future .future_item_box .future_item .future_item_btn {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: rgb(84, 144, 245);
+  padding: 5px 15px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+#future .future_item_box .future_item .future_item_btn:hover {
+  transform: scale(1.1);
+  background: rgb(81, 134, 110);
+  border-bottom: 2px solid black;
+}
+
+#future .future_item_box .future_item .btn_color1 {
+  background: rgb(9, 161, 92);
+}
+
+#future .future_item_box .future_item .btn_color2 {
+  background: rgb(255, 194, 57);
+}
+
+article {
+  margin-top: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 38px 24px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 2.4%;
+  background-position-y: 10.4%;
+}
+
+article .article_info {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+article .article_person_name {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+article .article_person_bio {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+/* future section end */
+
+/* news section start */
 
 #news {
-    margin: 50px 110px;
-    width: 1048px;
-  }
-  
-  #news .news_title {
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 38px;
-    text-align: left;
-  }
-  
-  #news .news_description {
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: left;
-    margin: 10px 0px;
-  }
-  
-  #news .satelite_section {
-    border-radius: 24px;
-    background: rgb(255, 255, 255);
-    padding: 35px;
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 0px;
-  }
-  
-  #news .satelite_section .satelite_img img {
-    width: 350px;
-    height: 230px;
-    background-size: cover;
-    border-radius: 24px;
-  }
-  
-  #news .satelite_section .satelite_info {
-    text-align: left;
-    width: 600px;
-  }
-  
-  #news .satelite_section .satelite_info .satelite_info_title {
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  
-  #news .satelite_section .satelite_info img {
-    width: 110px;
-    height: 35px;
-    margin: 10px 0px;
-  }
-  
-  #news .satelite_section .satelite_info .satelite_info_date_time {
-    display: flex;
-  }
-  
-  #news
-    .satelite_section
-    .satelite_info
-    .satelite_info_date_time
-    .satelite_info_date {
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: left;
-  }
-  
-  #news
-    .satelite_section
-    .satelite_info
-    .satelite_info_date_time
-    .satelite_info_time {
-    margin-left: 20px;
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  
-  #news .satelite_section .satelite_info .satelite_info_description {
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    text-align: left;
-    padding-top: 10px;
-  }
-  
-  #news .satelite_section .satelite_info .satelite_info_btn {
-    border: none;
-    outline: none;
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 22px;
-    text-align: left;
-    padding: 8px 30px;
-    margin-top: 15px;
-    cursor: pointer;
-    transition: 0.4s;
-    border-bottom: 2px solid transparent;
-  }
-  
-  #news .satelite_section .satelite_info .satelite_info_btn:hover {
-    color: #fff;
-    font-weight: 500;
-    transform: scale(1.1);
-    background: rgb(81, 134, 110);
-    border-bottom: 2px solid black;
-  }
+  margin: 50px 110px;
+  width: 1048px;
+}
+
+#news .news_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+}
+
+#news .news_description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+#news .satelite_section {
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+#news .satelite_section .satelite_img img {
+  width: 350px;
+  height: 230px;
+  background-size: cover;
+  border-radius: 24px;
+}
+
+#news .satelite_section .satelite_info {
+  text-align: left;
+  width: 600px;
+}
+
+#news .satelite_section .satelite_info .satelite_info_title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#news .satelite_section .satelite_info img {
+  width: 110px;
+  height: 35px;
+  margin: 10px 0px;
+}
+
+#news .satelite_section .satelite_info .satelite_info_date_time {
+  display: flex;
+}
+
+#news
+  .satelite_section
+  .satelite_info
+  .satelite_info_date_time
+  .satelite_info_date {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+#news
+  .satelite_section
+  .satelite_info
+  .satelite_info_date_time
+  .satelite_info_time {
+  margin-left: 20px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#news .satelite_section .satelite_info .satelite_info_description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+#news .satelite_section .satelite_info .satelite_info_btn {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  padding: 8px 30px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+#news .satelite_section .satelite_info .satelite_info_btn:hover {
+  color: #fff;
+  font-weight: 500;
+  transform: scale(1.1);
+  background: rgb(81, 134, 110);
+  border-bottom: 2px solid black;
+}
 /* news section end    */
+
+/* donate section start */
+
+#donate {
+  margin: 50px 110px;
+  width: 1048px;
+  text-align: center;
+}
+
+#donate .donate_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: center;
+}
+
+#donate .donate_info {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+
+#donate .donate_amount {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#donate .donate_amount .donate_box {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+#donate .donate_amount .donate_box:hover {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  cursor: pointer;
+}
+
+#donate .donate_amount .donate_box .donate_box_amount {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+  padding: 20px;
+}
+
+#donate input {
+  display: block;
+  outline: none;
+  border: none;
+  padding: 18px;
+  width: 840px;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  margin: 20px auto;
+}
+
+#donate .donate_btn {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+#donate .donate_btn:hover {
+  transform: scale(1.1);
+  background: rgb(81, 134, 110);
+  border-bottom: 2px solid black;
+}
+
+/* donate section end */
+
+/* subscribe section start */
+
+#subscribe {
+  margin: 50px 110px;
+  width: 1048px;
+  text-align: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 50px 0px;
+}
+
+#subscribe .subscribe_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 10px;
+}
+
+#subscribe .subscribe_info {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+#subscribe .subscribe_input_section {
+  width: 600px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+#subscribe .subscribe_input_section:hover {
+  transform: scale(1.1);
+  border-radius: 8px 0px 9px 8px;
+  border-bottom: 2px solid black;
+}
+
+#subscribe .subscribe_input_section input {
+  border: none;
+  outline: none;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  padding: 15px 25px;
+  width: 62%;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+#subscribe .subscribe_input_section .subscribe_input_button {
+  border-radius: 0px 8px 8px 0px;
+  outline: none;
+  border: none;
+  background: rgb(0, 106, 80);
+  width: 35%;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+#subscribe p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/* subscribe section end */
+
+/* footer section start  */
+
+footer section {
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+footer section h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 30px;
+}
+
+footer section .footer_logo_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer section .footer_logo {
+  padding: 5px;
+  margin: 20px;
+}
